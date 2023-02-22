@@ -26,24 +26,25 @@ This is a command line tool for scraping search engine results for a specific do
 
 The tool takes three arguments:
 
-usage: search_engine_scraper.py [-h] [--num-pages NUM_PAGES] domain dork
-
+```
+    usage: search_engine_scraper.py [-h] [--num-pages NUM_PAGES] domain dork
+```
 Scrape search engine results for a domain and dork.
 
 positional arguments:
-    `domain`  Domain to search for
-    `dork`    Dork to search for
+- `domain` :  Domain to search for
+- `dork`   :  Dork to search for
 
 optional arguments:
-    -h, --help show this help message and exit
-    --num-pages NUM_PAGES
-    Number of search result pages to scrape (default: 3)
+- `-h, --help` : show this help message and exit
+- `--num-pages NUM_PAGES`:  Number of search result pages to scrape (default: 3)
 
 
 To run the tool, enter the following command in the terminal:
 
-`python osint.py example.com "site" --num-pages 5`
-
+```
+    python osint.py example.com "site" --num-pages 5
+```
 
 This will scrape 5 pages of search results for the domain `example.com` and the dork `site`.
 
