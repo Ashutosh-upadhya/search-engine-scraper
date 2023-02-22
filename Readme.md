@@ -7,7 +7,7 @@ This is a command line tool for scraping search engine results for a specific do
 1. Clone the repository:
 
     ```
-    git clone https://github.com/your_username/search-engine-scraper.git
+    git clone https://github.com/Ashutosh-upadhya/search-engine-scraper
     ```
 
 2. Navigate to the cloned directory:
@@ -15,7 +15,7 @@ This is a command line tool for scraping search engine results for a specific do
     ```
     cd search-engine-scraper
     ```
-
+    
 3. Install the required packages:
 
     ```
